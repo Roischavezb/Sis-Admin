@@ -142,3 +142,138 @@ html {
 .sidebar__icon-arrow {
 	transition: transform 0.5s;
 }
+
+
+.img-border {
+	border: 8px solid var(--sidebar);
+	border-radius: 50%;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.active {
+	background: #3b4452;
+	border-radius: 5px;
+}
+
+.d-none {
+	display: none;
+}
+
+.d-block {
+	display: block;
+}
+
+.border-50 {
+	border-radius: 50%;
+}
+
+
+
+
+/*  MAIN CONTENT */
+
+.main-content {
+	background-color: #f6f7f9;
+	margin-left: 280px;
+	color: black;
+	height: 100vh;
+}
+
+/* ---------- ESTILOS DEL MAIN CONTENT HEADER---------- */
+
+.main-content__header {
+	background-color: #ffff;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 8rem;
+	padding: 1rem;
+}
+
+.main-content__login {
+	background-color: #b8bbbf;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.main-content__nombre {
+	font-size: 1.5rem;
+	margin-right: 15px;
+}
+
+.main-content__img {
+	width: 40px;
+}
+
+/* ---------- ESTILOS DEL MAIN CONTENT HEADER---------- */
+
+.main-content__body {
+	background-color: #1e293b;
+	height: 200px;
+	padding: 30px;
+	text-align: center;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='200' preserveAspectRatio='none' viewBox='0 0 1440 200'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1205%26quot%3b)' fill='none'%3e%3crect width='1440' height='200' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M749.82 116.71 a56.4 56.4 0 1 0 112.8 0 a56.4 56.4 0 1 0 -112.8 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1262.5 128.78 a53.59 53.59 0 1 0 107.18 0 a53.59 53.59 0 1 0 -107.18 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M193.00740344709607 131.38054490563377L200.4069040350505 78.73036246133867 140.35722100280097 123.98104431767933z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M130.11365516942067-23.92853061794363L98.95977165927515-15.580872690306874 127.05820030580304 26.97612361109301z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1398.61248501029 32.032915456111965L1380.7047872738613 15.333717158898978 1364.6098386962562 50.544862912148474z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M722.29 187.78 a49.99 49.99 0 1 0 99.98 0 a49.99 49.99 0 1 0 -99.98 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M568.0067447530798 149.31885925311718L618.5806341483576 157.32897642002325 626.5907513152637 106.75508702474548 576.0168619199859 98.74496985783941z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M90.5 26.57 a40.05 40.05 0 1 0 80.1 0 a40.05 40.05 0 1 0 -80.1 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M79.99%2c65.913C87.084%2c65.725%2c92.878%2c60.56%2c96.033%2c54.204C98.853%2c48.524%2c97.654%2c42.063%2c94.584%2c36.515C91.391%2c30.746%2c86.575%2c25.55%2c79.99%2c25.214C72.879%2c24.851%2c66.173%2c28.743%2c62.562%2c34.879C58.899%2c41.103%2c58.869%2c48.797%2c62.405%2c55.094C66.017%2c61.525%2c72.617%2c66.108%2c79.99%2c65.913' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M881.48 26.44 a41.15 41.15 0 1 0 82.3 0 a41.15 41.15 0 1 0 -82.3 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1205'%3e%3crect width='1440' height='200' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+.main-content__title {
+	color: #ffffff;
+	font-size: 4.8rem;
+	text-align: center;
+	font-weight: 800;
+	font-family: "Be Vietnam", sans-serif;
+}
+
+.main-content__subtitle {
+	display: block;
+	padding-top: 20px;
+	font-size: 20px;
+	color: #94a3b8;
+	font-weight: 300;
+}
+
+/* ---------- PUNTOS DE QUIEBRES---------- */
+
+@media (max-width: 576px) {
+	.main-content {
+		margin-left: 0px;
+	}
+
+	.sidebar {
+		width: 100%;
+		transform: translate(0, 100%);
+		transition: transform 0.8s ease;
+	}
+
+	.btn-menu {
+		display: block;
+		background-color: #4338ca;
+		position: fixed;
+		z-index: 100;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		top: 93%;
+		padding: 15px;
+		clip-path: circle(30px at 50% 7%);
+		cursor: pointer;
+	}
+
+	.is-active {
+		transform: translate(0, 0);
+		clip-path: circle(75%);
+	}
+
+	.btn-menu__icon {
+		font-size: 2rem;
+		font-weight: 900;
+		color: #ffff;
+	}
+}
+
