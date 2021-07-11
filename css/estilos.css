@@ -1,0 +1,144 @@
+:root {
+	--main-color: #0984e3;
+	--sidebar: #0f172a;
+	--sidebar-header: #1e293b;
+	--text-grey: #8390a2;
+	--text-white: #ffff;
+	--text-item: rgba(255, 255, 255, 0.7);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: "Poppins", sans-serif;
+}
+
+.btn-menu {
+	display: none;
+}
+
+/* ---------- ESTILOS DEL SIDEBAR  ---------- */
+
+.sidebar {
+	background-color: var(--sidebar);
+	height: 100vh;
+	overflow: auto;
+	position: fixed;
+	width: 280px;
+}
+
+.sidebar::-webkit-scrollbar {
+	width: 0.7rem;
+	background-color: #0f172a;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+	background: #4338ca;
+	border-radius: 5px;
+}
+
+/* ---------- ESTILOS DEL SIDEBAR HEADER ---------- */
+
+.sidebar__header {
+	background-color: var(--sidebar-header);
+	color: var(--text-white);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 100px;
+}
+
+.sidebar__name-users {
+	font-size: 1.5rem;
+	margin-top: 3rem;
+}
+
+.sidebar__img {
+	position: absolute;
+	top: 6rem;
+	height: 80px;
+	width: 80px;
+}
+
+/* ---------- ESTILOS DEL SIDEBAR BODY ---------- */
+
+.sidebar__body {
+	padding: 0px 12px;
+}
+
+.sidebar__menu {
+	padding-top: 60px;
+	margin-bottom: 1.5rem;
+}
+
+.sidebar__enlace {
+	color: var(--text-item);
+	display: flex;
+	align-items: center;
+	padding: 8px 12px;
+	margin-bottom: 0.3rem;
+}
+
+.sidebar__enlace:hover {
+	background: #3b4452;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.sidebar__icon {
+	font-size: 2rem;
+	margin-right: 0.6rem;
+	font-weight: 700;
+}
+
+.sidebar__name-item {
+	color: var(--text-item);
+	font-size: 1.3rem;
+	font-weight: 500;
+	letter-spacing: 0.025em;
+}
+
+.sidebar__name-item--color {
+	color: #818cf8;
+	display: block;
+	font-size: 1.2rem;
+	font-weight: 600;
+	padding: 0.8rem 1.2rem;
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
+}
+
+.sidebar__icon-arrow {
+	font-size: 1.5rem;
+	margin-left: auto;
+	font-weight: 900;
+}
+
+/* ---------- ESTILOS DEL COLLAPSE MENU---------- */
+
+.collapse__menu {
+	display: none;
+	transition: all ease 0.7s;
+}
+
+.sidebar__name-item--collapse {
+	font-size: 1.2rem;
+	padding-left: 2.6rem;
+}
+
+/* ---------- ESTILOS DEL ICONO-ARROW  ROTATE--------- */
+
+.up-arrow .sidebar__icon-arrow {
+	transform: rotate(180deg);
+}
+
+.sidebar__icon-arrow {
+	transition: transform 0.5s;
+}

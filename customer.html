@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+
+      <!-- Iconos -->
+      <link rel="stylesheet"
+          href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+
+      <!-- Font family-->
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+          rel="stylesheet" />
+      <link
+          href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;1,600&family=Yanone+Kaffeesatz:wght@600&display=swap"
+          rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Fredoka+One&display=swap"
+          rel="stylesheet">
+
+      <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+      <!-- Estilos Personales -->
+      <link rel="stylesheet" href="css/estilos.css" />
+      <link rel="stylesheet" href="css/utilidades.css" />
+      <link rel="stylesheet" href="css/content.css">
+</head>
+
+<body>
+      <div class="btn-menu" type="button">
+            <span class="las la-bars btn-menu__icon"></span>
+      </div>
+
+      <div class="sidebar">
+            <div class="sidebar__header">
+                  <strong class="sidebar__name-users">Jhon Doe</strong>
+                  <div class="sidebar__img">
+                        <img class="img-border" src="img/image-kajol.jpg" alt="" srcset="" />
+                  </div>
+            </div>
+
+            <div class="sidebar__body">
+                  <ul class="sidebar__menu">
+                        <li class="sidebar__item">
+                              <strong class="sidebar__name-item sidebar__name-item--color">DASHBOARD</strong>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="#" class="sidebar__enlace active">
+                                    <span class="las la-home sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Home</span>
+                                    <span class="las la-angle-down sidebar__icon-arrow"></span>
+                              </a>
+
+                              <ul class="collapse__menu">
+                                    <a href="index.html" class="sidebar__enlace">
+                                          <span class="sidebar__name-item sidebar__name-item--collapse">Data</span>
+                                    </a>
+                                    <a href="#" class="sidebar__enlace">
+                                          <span class="sidebar__name-item sidebar__name-item--collapse">Groups</span>
+                                    </a>
+                                    <a href="#" class="sidebar__enlace">
+                                          <span class="sidebar__name-item sidebar__name-item--collapse">Members</span>
+                                    </a>
+                              </ul>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="#" class="sidebar__enlace">
+                                    <span class="las la-user-friends sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Customer</span>
+                              </a>
+                        </li>
+                        <li class="sidebar__item">
+                              <strong class="sidebar__name-item sidebar__name-item--color">USER INTERFACE</strong>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="#" class="sidebar__enlace">
+                                    <span class="las la-project-diagram sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Projects</span>
+                                    <span class="las la-angle-down sidebar__icon-arrow"></span>
+                              </a>
+
+                              <ul class="collapse__menu">
+                                    <a href="#" class="sidebar__enlace">
+                                          <span
+                                              class="sidebar__name-item sidebar__name-item--collapse">Statistics</span>
+                                    </a>
+                                    <a href="#" class="sidebar__enlace">
+                                          <span class="sidebar__name-item sidebar__name-item--collapse">Groups</span>
+                                    </a>
+                                    <a href="#" class="sidebar__enlace">
+                                          <span class="sidebar__name-item sidebar__name-item--collapse">Members</span>
+                                    </a>
+                              </ul>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="orders.html" class="sidebar__enlace">
+                                    <span class="las la-shopping-bag sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Orders</span>
+                              </a>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="#" class="sidebar__enlace">
+                                    <span class="las la-tachometer-alt sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Inventory</span>
+                              </a>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="#" class="sidebar__enlace">
+                                    <span class="las la-user-circle sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Acconunts</span>
+                              </a>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="#" class="sidebar__enlace">
+                                    <span class="las la-clipboard-list sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Tasks</span>
+                              </a>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="#" class="sidebar__enlace">
+                                    <span class="las la-comment-dots sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Chat</span>
+                              </a>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="#" class="sidebar__enlace">
+                                    <span class="lar la-envelope sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Mailbox</span>
+                              </a>
+                        </li>
+
+                        <!-- Pruebas -->
+                        <li class="sidebar__item">
+                              <a href="index.html" class="sidebar__enlace">
+                                    <span class="las la-home sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Home</span>
+                              </a>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="#" class="sidebar__enlace">
+                                    <span class="las la-user-friends sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Customer</span>
+                              </a>
+                        </li>
+                        <li class="sidebar__item">
+                              <strong class="sidebar__name-item sidebar__name-item--color">USER INTERFACE</strong>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="#" class="sidebar__enlace">
+                                    <span class="las la-project-diagram sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Projects</span>
+                              </a>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="orders.html" class="sidebar__enlace">
+                                    <span class="las la-shopping-bag sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Orders</span>
+                              </a>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="#" class="sidebar__enlace">
+                                    <span class="las la-tachometer-alt sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Inventory</span>
+                              </a>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="#" class="sidebar__enlace">
+                                    <span class="las la-user-circle sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Acconunts</span>
+                              </a>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="#" class="sidebar__enlace">
+                                    <span class="las la-clipboard-list sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Tasks</span>
+                              </a>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="#" class="sidebar__enlace">
+                                    <span class="las la-comment-dots sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Chat</span>
+                              </a>
+                        </li>
+                        <li class="sidebar__item">
+                              <a href="#" class="sidebar__enlace">
+                                    <span class="lar la-envelope sidebar__icon"></span>
+                                    <span class="sidebar__name-item">Mailbox</span>
+                              </a>
+                        </li>
+                  </ul>
+            </div>
+      </div>
+
+      <div class="main-content">
+            <header class="main-content__header">
+                  <strong class="main-content__nombre">Jhon Doe</strong>
+                  <div class="main-content__img">
+                        <img class="border-50" src="img/image-kajol.jpg" alt="" srcset="" />
+                  </div>
+            </header>
+
+            <main class="main-content__body">
+                  <h1 class="main-content__title">Qué quieres aprender hoy</h1>
+                  <!-- <strong class="main-content__subtitle">Has las cosas que te gusten aunque de momento no sepas por qué
+                        te atraen. No te cortes las alas sigue tu intuicion</strong> -->
+            </main>
+      </div>
+
+
+      <script src="js/index_dom.js" type="module"></script>
+      <script src="js/menu__collapse.js"></script>
+</body>
+
+</html>
